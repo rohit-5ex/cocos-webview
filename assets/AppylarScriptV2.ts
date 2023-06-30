@@ -57,10 +57,6 @@ export class AppylarScriptV2 {
             const screenWidth = windowSize.width / detectedDensity;
             this.interstitialAdNode.setAnchorPoint(v2(0.5, 0.5));
             uiTransform.setContentSize(screenWidth, screenHeight);
-            const hideInterstitialBtn = this.hideInterstitialBtn;
-            if (hideInterstitialBtn) {
-                this.hideInterstitialBtn.active = true;
-            }
             return true;
         } catch (error) {
             return false;
