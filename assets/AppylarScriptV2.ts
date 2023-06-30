@@ -73,7 +73,6 @@ export class AppylarScriptV2 {
         interstitialWebViews.forEach((webView) => {
             webView.destroy();
         });
-        this.hideInterstitialBtn.active = false;
     }
 
 }
