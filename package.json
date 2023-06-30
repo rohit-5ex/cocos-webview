@@ -1,0 +1,18 @@
+{
+  "name": "AppylarSetupFinal",
+  "uuid": "611ad386-eb11-4e35-9b67-9ddf9699ea4f",
+  "version": "3.6.2",
+  "creator": {
+    "version": "3.7.2"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "ts-global": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1"
+  }
+}
